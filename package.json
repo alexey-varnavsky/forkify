@@ -6,7 +6,7 @@
   "homepage": "https://alexey-varnavsky.github.io/forkify",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
@@ -27,7 +27,7 @@
     "@babel/polyfill": "^7.8.7",
     "axios": "^0.19.2",
     "fraction.js": "^4.0.12",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "uniqid": "^5.2.0"
   }
 }
